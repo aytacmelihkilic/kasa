@@ -44,5 +44,7 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# Derlenmiş APK (CI/tablet için scripts/build_apk.ps1 kullanın)
+# Derlenmiş APK (releases/ klasöründeki dosya repoda kalır — README indirme linki)
 *.apk
+!releases/
+!releases/*.apk
